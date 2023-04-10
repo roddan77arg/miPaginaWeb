@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Peces Marinos</title>
+	<style type="text/css">
+		body{
+			margin: 0px;
+		}
+
+		#nav{
+			width: 700px;
+			height: 50px;
+			margin: 0 auto;
+		}
+
+		ul{
+			margin: 0px;
+		}
+
+		#nav li, #pie li {
+			list-style: none;
+			float: left;
+			width: auto;
+			margin: 12px 15px 0px 0px;
+			font-weight: 600;
+		}
+
+		a{
+			text-decoration: none;
+			color: #777;
+			padding: 5px;
+		}
+
+		a:hover{
+			color: #555;
+		}
+
+		#logo{
+			float: left;
+			margin-right: 50px;
+		}
+
+		/* CABERECERA */
+
+		#cabecera{
+			width: 100%;
+			height: 400px;
+			background-image: url('portada.jpeg');
+			background-size: 30% 400px;
+		}				
+
+		/* CUERPO */
+
+		#cuerpo{
+			width: 955px;
+			height: auto;
+			overflow: hidden;
+			margin: 0 auto;
+		}
+
+		.articulo{
+			width: 200px;
+			height: 450px;
+			float: left;
+			margin: 10px;
+			padding: 8px;
+			overflow: hidden;
+		}
+
+		.articulo:hover{
+			background-color: #eee;
+		}
+
+		/* PIE */
+
+		#pie{
+			width: 100;
+			height: 40px;
+			color: #ddd;
+
+		}
+
+		/* REDONDO */
+
+		.redondo{
+			width: 200px;
+			height: 200px;
+			border-radius: 150px;
+			box-shadow: 5px 5px 2px #991;
+		}
+		h3{
+			text-align: center;
+		}
+
+		p{
+			color: grey;
+			text-align: justify;
+		}
+		.btn{
+			margin: 0 auto;
+			width: 60px;
+			height: 20px;
+			border-radius: 3px;
+			background-color: white;
+			padding: 2px 10px 2px 10px;
+		}
+		.btn:hover{
+			background-color: lightblue;
+		}
+	</style>
+</head>
+<body>
+	<!-- MENU DE NAVEGACION -->
+	<div id="nav">
+		<img src="logo.png" id="logo" width="50px" height="50px">
+		<ul>
+			<li><a href="inicio.html">Inicio</li>
+			<li><a href="">Complementos</li>
+			<li><a href="">Alimentos</li>
+			<li><a href="">Acuarios</li>					
+			<li><a href="">Peces</li>
+		</ul>
+	</div>
+	<!-- CABECERA -->
+	<div id="cabecera"></div>		
+
+	<!-- PIE -->
+	<div id="pie">
+		<ul>
+			<li>Derechos de autor</li>
+			<li>Privacidad</li>
+			<li>Terminos de uso</li>
+			<li>Sobre nosotros</li>
+			<li>Contactenos</li>
+
+		</ul>
+	</div>
+	
+	<!-- CUERPO -->
+	<div id="cuerpo">
+		<div class="articulo">
+			<img src="payaso.jpeg" class="redondo">
+			<h3>Pez Payaso</h3>
+			<p>Clownfish or anemonefish are fishes from the subfamily Amphiprioninae</p>
+			<a href="pezPayaso.html"><div class="btn">Mostrar</div></a>
+		</div>
+
+		<div class="articulo">
+			<img src="espada.jpeg" class="redondo">
+			<h3>Pez Espada</h3>
+			<p>Clownfish or anemonefish are fishes from the subfamily Amphiprioninae</p>
+			<a href="pezEspada.html"><div class="btn">Mostrar</div></a>
+		</div>
+
+		<div class="articulo">
+			<img src="globo.jpeg" class="redondo">
+			<h3>Pez Globo</h3>
+			<p>Clownfish or anemonefish are fishes from the subfamily Amphiprioninae</p>
+			<a href="pezGlobo.html"><div class="btn">Mostrar</div></a>
+		</div>
+
+		<div class="articulo">
+			<img src="tiburon.jpeg" class="redondo">
+			<h3>Pez Tiburon</h3>
+			<p>Clownfish or anemonefish are fishes from the subfamily Amphiprioninae</p>
+			<a href="pezTiburon.html"><div class="btn">Mostrar</div></a>
+		</div>
+	</div>
+
+</body>
+</html>
